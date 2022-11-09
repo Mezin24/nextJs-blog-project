@@ -1,7 +1,13 @@
-import './featured-posts.module.css';
+import classes from './featured-posts.module.css';
+import PostGrid from '../posts/post-item';
 
 const FeaturedPosts = () => {
-  return <div>Featured Postrs</div>;
+  return (
+    <>
+      <h2>Featured Posts</h2>
+      <PostGrid />
+    </>
+  );
 };
 
 export default FeaturedPosts;
