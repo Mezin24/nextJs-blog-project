@@ -3,7 +3,6 @@ import FeaturedPosts from '../components/home-page/featured-posts';
 import { DUMMY_POSTS as posts } from '../dummy_data';
 
 const HomePage = () => {
-  console.log(posts);
   return (
     <>
       <Hero />

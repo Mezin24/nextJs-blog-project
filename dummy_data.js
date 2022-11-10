@@ -5,7 +5,7 @@ export const DUMMY_POSTS = [
     excerpt:
       'NextJS is a the React framework for production - it makes building fullstack React applications easy',
     date: '2022-02-10',
-    slug: 'getting-started-with-nextjs1',
+    slug: 'getting-started-with-nextjs',
     content: '# This is a first post',
   },
   {
@@ -14,7 +14,7 @@ export const DUMMY_POSTS = [
     excerpt:
       'NextJS is a the React framework for production - it makes building fullstack React applications easy',
     date: '2022-02-10',
-    slug: 'getting-started-with-nextjs2',
+    slug: 'getting-started-with-nextjs',
   },
   {
     title: 'Getting Started With NextJS',
@@ -22,7 +22,7 @@ export const DUMMY_POSTS = [
     excerpt:
       'NextJS is a the React framework for production - it makes building fullstack React applications easy',
     date: '2022-02-10',
-    slug: 'getting-started-with-nextjs3',
+    slug: 'getting-started-with-nextjs',
   },
   {
     title: 'Getting Started With NextJS',
@@ -30,6 +30,6 @@ export const DUMMY_POSTS = [
     excerpt:
       'NextJS is a the React framework for production - it makes building fullstack React applications easy',
     date: '2022-02-10',
-    slug: 'getting-started-with-nextjs4',
+    slug: 'getting-started-with-nextjs',
   },
 ];
