@@ -6,6 +6,7 @@ export const DUMMY_POSTS = [
       'NextJS is a the React framework for production - it makes building fullstack React applications easy',
     date: '2022-02-10',
     slug: 'getting-started-with-nextjs1',
+    content: '# This is a first post',
   },
   {
     title: 'Getting Started With NextJS',
