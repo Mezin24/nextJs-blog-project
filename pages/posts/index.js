@@ -1,8 +1,19 @@
 import AllPosts from '../../components/posts/all-posts';
-import { DUMMY_POSTS as posts } from '../../dummy_data';
+import { getAllPosts } from '../../lib/post-util';
 
-const AllPostsPage = () => {
+const AllPostsPage = ({ posts }) => {
   return <AllPosts posts={posts} />;
+};
+
+export const getStaticProps = async () => {
+  const allPosts = getAllPosts();
+
+  return {
+    props: {
+      posts: allPosts,
+    },
+    revalidate: 1800,
+  };
 };
 
 export default AllPostsPage;
